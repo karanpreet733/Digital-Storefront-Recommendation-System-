@@ -117,17 +117,3 @@ Python
 # Constraint 1: Must be under $10.00
 # Constraint 2: Must be playable on MacOS
 
-print(get_recommendations('Counter-Strike', max_price=10.00, required_platform='mac'))
-Terminal Output:
-
-Plaintext
-['Day of Defeat ($3.99)', 'Ricochet ($4.99)', 'Half-Life Deathmatch: Source ($9.99)', 'Half-Life 2: Deathmatch ($4.99)', 'Team Fortress Classic ($3.99)']
-📂 Repository Structure
-Plaintext
-├── data/
-│   └── steam.csv            # The core dataset (ignored in git if too large)
-├── notebooks/
-│   └── EDA_and_Testing.ipynb # Jupyter notebook showing step-by-step logic
-├── app.py                   # The main recommendation script
-├── requirements.txt         # Project dependencies
-└── README.md                # Project documentation
